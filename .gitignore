@@ -1,0 +1,23 @@
+# Ignore everything
+/*
+
+# Whitelist project stuff
+!.gitignore
+
+# Ignore backup files
+**.backup
+
+# Ignore all but tags/mimickal/ and data/mimickal
+# Yes, this is stupid.
+!tags/
+tags/*
+!tags/mimickal/
+
+!data/
+data/*
+!data/mimickal/
+
+# Ignore this stuff from an old project
+tags/mimickal/weapons/remote bomb
+data/mimickal/weapons/remote bomb
+
