@@ -7,6 +7,9 @@
 # Ignore backup files
 **.backup
 
+# We've been using tga's as intermediary files but they shouldn't be committed
+**.tga
+
 # Ignore all but tags/mimickal/ and data/mimickal
 # Yes, this is stupid.
 !tags/
